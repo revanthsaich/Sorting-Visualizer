@@ -1,0 +1,15 @@
+.footer
+{
+    height: 50px;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(34,34,34,1) 100%);
+    color:whitesmoke;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding-left: 70%;
+}
+
+.footer p
+{
+    word-spacing: 30px;
+}
