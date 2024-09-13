@@ -11,8 +11,11 @@
 {
     height: 100vh;
     width: auto;
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(34,34,34,1) 100%);
-    
+    /* background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(34,34,34,1) 100%); */
+    background-image: url("background1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
 }
 .slide1
 {
@@ -64,12 +67,31 @@ SECTION -II
 */
 
 
-.slide2
-{
-    /* border: 1px solid white; */
+.slide2 {
     box-sizing: border-box;
-    display:flex;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     width: 100%;
+    min-height: 100vh;
+    max-height: auto;
+    overflow: scroll; 
+    background: linear-gradient(90deg, rgb(14, 14, 14) 0%, rgb(16, 16, 16) 100%), url("background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(34,34,34,1) 100%); */
+    padding: 120px; /* Add padding to ensure elements don't touch the edges */
+}
+
+@media screen and (max-width: 992px) {
+    .slide2 {
+        flex-direction: column; /* Stacks elements vertically on smaller screens */
+    }
+    
+    .slide2 img, .slide2 .text {
+        width: 100%; /* Makes images and text take up full width */
+        max-width: 500px; /* Sets a max width to prevent overly large elements */
+    }
 }

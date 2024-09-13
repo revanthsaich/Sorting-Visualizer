@@ -1,10 +1,11 @@
 .header {
-    background-color: #30312fb0;
+    background-color: #30312fda;
     height: 50px;
     color: white;
     display: grid;
     grid-template-columns: 20% 80%;
     position: fixed;
+    z-index: 1000;
     width: 100%;
   }
 .logo-container
@@ -36,19 +37,5 @@
 .header .label p{
   color: white;
   position: relative;
-  transition: color 0.2s ease-in;
 }
-.header .label p::after{
-  content: '';
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width: 0%;
-    height: 2px;
-    background-color: #dd0707;
-    transition: 0.4s cubic-bezier(.2,.94,.42,1.66);
-}
-.header .label p:hover:after
-{
-  width: 100%;
-}
+
