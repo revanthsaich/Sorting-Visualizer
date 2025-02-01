@@ -1,0 +1,15 @@
+.footer
+{
+    height: 50px;
+    background: linear-gradient(90deg, rgb(14, 14, 14) 0%, rgb(16, 16, 16) 100%);
+    color:whitesmoke;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding-left: auto;
+}
+
+.footer p
+{
+    word-spacing: 30px;
+}
