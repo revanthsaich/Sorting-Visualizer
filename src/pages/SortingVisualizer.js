@@ -11,7 +11,7 @@ const SortingVisualizer = () => {
   const [array, setArray] = useState([]);
   const [isSorting, setIsSorting] = useState(false);
   const arraySize = 100;
-  const animationSpeed = 50;
+  const animationSpeed = 35;
 
   const location = useLocation();
   const selectedAlgorithm = location.state?.algorithm || 'bubble';
