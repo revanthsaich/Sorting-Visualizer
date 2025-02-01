@@ -84,9 +84,12 @@ SECTION -II
     /* background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(34,34,34,1) 100%); */
     padding: 120px; /* Add padding to ensure elements don't touch the edges */
 }
+<<<<<<< HEAD
 .slide2::-webkit-scrollbar{
     display: none;    
 }
+=======
+>>>>>>> ebe698f3f41c9f6dccc9f6afe0ff57df0d4095da
 
 @media screen and (max-width: 992px) {
     .slide2 {

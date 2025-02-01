@@ -2,7 +2,11 @@ body{
     
     height: 100vh;
     background-color: rgb(218, 216, 214);
+<<<<<<< HEAD
 }
 body::-webkit-scrollbar{
     display: none;    
   }
+=======
+}
+>>>>>>> ebe698f3f41c9f6dccc9f6afe0ff57df0d4095da
