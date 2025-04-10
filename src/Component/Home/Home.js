@@ -20,7 +20,7 @@ function Home() {
                 <img src={bg}/>
             </div>
         </div>
-        <div className="slides slide2">
+        <div className="slide2">
             <Card data={CardData}/> 
         </div>
     </div>
